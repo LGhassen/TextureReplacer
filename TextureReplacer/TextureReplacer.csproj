@@ -53,17 +53,23 @@
     <None Include="Visor.shader" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Visor-compiled.shader" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="System" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\run\media\davorin\Windows 7\KSP\KSP_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\run\media\davorin\Windows 7\KSP-test\KSP_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\..\run\media\davorin\Windows 7\KSP-test\KSP_Data\Managed\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\..\run\media\davorin\Windows 7\KSP\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\run\media\davorin\Windows 7\KSP-test\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Visor-compiled.shader" />
+    <Reference Include="KSPUtil">
+      <HintPath>..\..\..\..\..\..\run\media\davorin\Windows 7\KSP-test\KSP_Data\Managed\KSPUtil.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
