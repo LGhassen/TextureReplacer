@@ -139,7 +139,7 @@ reflect the skybox from `EnvMap/` directory:
       EnvMap/PositiveZ         // fake skybox front face, vertically flipped
       EnvMap/NegativeZ         // fake skybox back face, vertically flipped
 
-Note that all textures must be quares and have the same dimensions that are
+Note that all textures must be squares and have the same dimensions that are
 powers of two. Cube map textures are slow, so keep them as low-res as possible.
 
 `TRReflection` part module can be used as in the following example that adds
@@ -290,6 +290,9 @@ Known Issues
 Change Log
 ----------
 
+* 2.5.0
+    - fixed shaders for Unity 5 / KSP 1.1+
+    - code cleanup
 * 2.4.12
     - removed / replaced Kerbal Stuff links
     - possibly fixed a reflections-related crash
@@ -692,7 +695,7 @@ Change Log
 Licence
 -------
 
-Copyright © 2013-2015 Davorin Učakar, Ryan Bray
+Copyright © 2013-2016 Davorin Učakar, Pavel Alekseevich, Ryan Bray
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
